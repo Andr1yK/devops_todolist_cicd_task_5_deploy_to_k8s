@@ -146,4 +146,4 @@ jobs:
       environment: staging
       version: ${{ github.sha }}
       helm-release-name: todoapp-staging
-      helm-values-path: ./todoapp/values/staging.yaml
+      helm-values-path: ./todoapp/values/stg.yaml
